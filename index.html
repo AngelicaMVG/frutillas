@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Nueva Fruteria Master</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <style type = 'text/css'>
+    body{
+      background-image: url(http://images.wisegeek.com/group-of-fruit-including-bananas-oranges-and-apples.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    .margin{
+      margin-bottom: 50px;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+    h1{
+      font-family: Lobster;
+      font-size: 75px;
+    }
+    p{
+      font-size: 30px;
+      font-family: fantasy;
+    }
+    ol{
+      font-size: 20px;
+      font-family: monospace;
+    }
+    .boton{
+      font-size:15px;
+       font-family:fantasy;
+       font-weight:bold;
+       color:black;
+       background:white;
+       border-color: grey;
+       width:80px;
+       height:30px;
+       margin-left: 30px;
+       border: 0px;
+       border-radius: 8px;
+
+    }
+    .boton:hover{
+      background: green;
+
+    }
+    input{
+      font-size: 15px;
+      font-family: fantasy;
+    }
+  </style>
+</head>
+<body class = 'margin'>
+  <h1 align = 'center'> Lista de Frutas </h1>
+  <hr style ='color: #0056b2' size = 1/>
+  <p aling = 'center'> Frutas Master es una empresa familiar de tercera generación que se dedica a la compra, venta y distribución de frutas al por mayor. En la actualidad, somos la empresa líder en el servicio de distribucion de frutas.</p>
+  <h2> Catálogo:</h2>
+
+  <ol id="lista">
+    <li> Manzana</li>
+    <li> Piña</li>
+    <li> Pera</li>
+    <li> Cereza</li>
+    <li> Naranja</li>
+  </ol>
+  <form>
+    <input type="text" id="agregarfruta" placeholder="  Agrega una fruta">
+    <button id="boton" class = 'boton'> Agregar </button>
+  </form>
+
+<script src='./assets/js/frutas.js'></script>
+</body>
+</html>
