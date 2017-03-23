@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Nueva Fruteria Master</title>
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
   <style type = 'text/css'>
     body{
       background-image: url(http://images.wisegeek.com/group-of-fruit-including-bananas-oranges-and-apples.jpg);
@@ -67,8 +68,11 @@
     <li> Naranja</li>
   </ol>
   <form>
-    <input type="text" id="agregarfruta" placeholder="  Agrega una fruta">
-    <button id="boton" class = 'boton'> Agregar </button>
+    <div >
+      <input type="text" id="agregarfruta" placeholder="  Agrega una fruta">
+        <button id="boton" class = 'boton'> Agregar </button>
+        <button id = 'botonRemove' class= 'boton'>Remover</button>
+   </div>
   </form>
 
 <script src='./assets/js/frutas.js'></script>
